@@ -7,7 +7,7 @@ body{
 .top-header {
   text-align: center;
   margin: 0 auto;
-  border: 2px solid red;
+  border: 5px solid red;
   border-radius: 20px;
   width: 80%;
 }
@@ -25,15 +25,20 @@ body{
   /*box-sizing: border-box;*/
   height: 100px;
   margin: 10px 10px 10px 10px;
+
 }
 
 .choice > img:first-child {
   float: left;
+  border: 5px solid pink;
+  border-radius: 20px;
   /*margin: 20px;*/
 }
 
 .choice > img:last-child {
   float: right;
+  border: 5px solid gold;
+  border-radius: 20px;
   /*margin: 20px;*/
 }
 
@@ -47,17 +52,19 @@ body{
 }
 
 .results {
+  display: none;
   width: 80%;
   margin: 0 auto;
   box-sizing: border-box;
-  border: 2px solid yellow;
   clear: both;
   position: relative;
   border-radius: 20px;
 }
 
 .result {
-  display: none;
+  display: inline-flex;
+  width: auto;
+  
 }
 
 .result p {
@@ -65,7 +72,6 @@ body{
 }
 
 .result img {
-  padding: 10px 10px 10px 10px;
   border-radius: 20px;
 }
 
