@@ -1,0 +1,79 @@
+
+body{
+  /*height: inherit;*/
+  /*background-image: url('pigfield-510x355.jpg');*/
+}
+
+.top-header {
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.main-thing {
+  margin: 0 auto;
+  height: inherit;
+  width: 80%;
+  padding: 100px 20px 20px 20px;
+}
+
+.choice {
+  width: 100%;
+  /*position: relative;*/
+  /*box-sizing: border-box;*/
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.choice > img:first-child {
+  float: left;
+  /*margin: 20px;*/
+}
+
+.choice > img:last-child {
+  float: right;
+  /*margin: 20px;*/
+}
+
+
+.user-info {
+  display: none;
+  clear: both;
+  float: left;
+  padding: 20px 20px 20px 20px;
+  /*position: relative;*/
+}
+
+.results {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid yellow;
+  clear: both;
+  position: relative;
+  border-radius: 20px;
+}
+
+.result {
+  display: none;
+}
+
+.result p {
+  padding: 10px 10px 10px 50px;
+}
+
+.result img {
+  padding: 10px 10px 10px 10px;
+  border-radius: 20px;
+}
+
+label {
+  padding: 5px 5px 5px 20px;
+}
+
+input {
+  margin-left: 15px;
+  padding: 3px;
+}
